@@ -60,8 +60,8 @@ class _RegisterPageState extends State<RegisterPage> {
         'email': emailController!.text,
         'name': nameController!.text,
       });
-
       context.pushReplacement(LoginPage());
+      
     } catch (e) {
       showDialog(
         context: context,
